@@ -103,3 +103,64 @@ nav li {
     margin: 30px;
 }
 
+/* Main */
+.main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* About Section */
+.about-section {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    text-align: center;
+    padding: 130px 157px;
+}
+
+.about-title {
+    color: #181818;
+    padding-top: 131px;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.about-desription {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+.section-table {
+    margin-top: 30px;
+}
+
+
+.section-table thead {
+    font-size: 18px;
+    color: #757575;
+}
+
+.section-table tbody {
+    font-weight: 700;
+    font-size: 18px;
+    color: #474747;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.info-name {
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-value {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
