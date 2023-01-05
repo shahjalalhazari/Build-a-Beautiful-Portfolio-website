@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Colors */
+.primary-color {
+    color: #FD6E0A;
+}
+
+.primary-btn {
+    background-color: #FD6E0A;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 0;
+}
+
+/* Header & Nav */
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    padding-right: 38px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 51px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 57px;
+    font-size: 20px;
+}
+
+.nav-logo {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.hire-btn {
+    padding: 0px 35px;
+}
+
+
+/* Banner's style */
+.banner {
+    margin: 0 0 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.sub-title {
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.banner button {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 17px;
+}
+
+.contact-btn {
+    background-color: #fff;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    border-radius: 5px;
+    border: 2px solid #FD6E0A;
+    padding: 18px 0;
+    margin: 30px;
+}
+
