@@ -107,6 +107,7 @@ nav li {
 .main {
     max-width: 1140px;
     margin: 0px auto;
+    text-align: center;
 }
 
 /* About Section */
@@ -118,34 +119,17 @@ nav li {
     padding: 130px 157px;
 }
 
-.about-title {
+.section-title {
     color: #181818;
-    padding-top: 131px;
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 30px;
 }
 
-.about-desription {
+.section-desription {
     font-size: 18px;
     margin-bottom: 30px;
     color: #757575;
-}
-
-.section-table {
-    margin-top: 30px;
-}
-
-
-.section-table thead {
-    font-size: 18px;
-    color: #757575;
-}
-
-.section-table tbody {
-    font-weight: 700;
-    font-size: 18px;
-    color: #474747;
 }
 
 .about-info-container {
@@ -163,4 +147,38 @@ nav li {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+
+/* What i do Section's style */
+.work-details {
+    margin-top: 130px;
+}
+.detail-cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.detail-card {
+    background: #FFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    margin-right: 24px;
+    margin-bottom: 100px;
+    text-align: left;
+}
+
+.detail-card img {
+    width: 44px;
+    height: 44px;
+}
+
+.detail-card-title {
+    margin-top: 30px;
+}
+
+.detail-card-description {
+    margin-top: 20px;
 }
