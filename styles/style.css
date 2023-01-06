@@ -47,6 +47,11 @@ nav li {
     font-size: 20px;
 }
 
+nav li a {
+    text-decoration: none;
+    color: #FD6E0A;
+}
+
 .nav-logo {
     font-weight: 800;
     font-size: 45px;
